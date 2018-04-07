@@ -1,0 +1,49 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "house pictures",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "DisplayPicture",
+                    "slots": [
+                        {
+                            "name": "number",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "show me house number {number}",
+                        "picture {number}",
+                        "image {number}",
+                        "house {number}",
+                        "house number {number}"
+                    ]
+                },
+                {
+                    "name": "DisplayAllPictures",
+                    "slots": [],
+                    "samples": [
+                        "all pictures",
+                        "show me all pictures",
+                        "all houses",
+                        "display all houses",
+                        "show me all houses"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
