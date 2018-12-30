@@ -14,4 +14,10 @@ User: 'Alexa, open DisplayHousePicture.'
 
 Alexa: 'Welcome, to house pictures! What image would you like to see?'
 
-User:
+User: 'Show me house number 3.'
+
+**Displays House #3**
+
+User: 'Show all houses.'
+
+**Displays All House**
